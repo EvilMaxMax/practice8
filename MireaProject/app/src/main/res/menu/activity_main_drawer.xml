@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calculateFragment"
+            android:icon="@drawable/ic_menu_calculate"
+            android:title="menu_calculate" />
+        <item
+            android:id="@+id/webViewFragment"
+            android:icon="@drawable/ic_menu_web"
+            android:title="menu_web" />
+        <item
+            android:id="@+id/audioFragment"
+            android:icon="@drawable/ic_menu_audio"
+            android:title="Audio" />
+        <item
+            android:id="@+id/sensorsFragment"
+            android:title="Sensors"/>
+        <item
+            android:id="@+id/photoFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Photo"/>
+        <item
+            android:id="@+id/recordFragment"
+            android:title="Record"/>
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/storiesFragment"
+            android:title="Stories"/>
+        <item
+            android:id="@+id/webinfoFragment"
+            android:title="WebInfo"/>
+        <item
+            android:id="@+id/dataFragment"
+            android:title="Data"/>
+    </group>
+</menu>
